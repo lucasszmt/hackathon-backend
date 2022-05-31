@@ -1,0 +1,16 @@
+_id: env_21650b6420904a52abb8f47ede7185c1
+type: Environment
+parentId: env_0a0577932ffc6ea8cf010206cd529a41a450cb39
+modified: 1653956854962
+created: 1653956663788
+name: Development
+data:
+  schema: http://
+  base_url: 0.0.0.0:8080
+dataPropertyOrder:
+  "&":
+    - schema
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1653956663788

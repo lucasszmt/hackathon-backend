@@ -1,0 +1,35 @@
+_id: req_f57550e738dd475b9c23b593571d0ef9
+type: Request
+parentId: fld_189d89bf97cf4634864fdad9190e149e
+modified: 1653956870052
+created: 1653956804844
+url: "{{schema}}{{base_url}}/api/manager"
+name: Create Manager
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"FirstName": "Lucas",
+    	"LastName":  "Szeremeta 2",
+    	"Password":  "123456",
+    	"Email":     "lucas.szeremeta@becomeholonic.com",
+    	"Company":   "Holonic",
+    	"JobTitle":  "Golanger",
+    	"Category":  "Manager"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_239d39c2a73c4ffd9991c8ffafecd119
+authentication: {}
+metaSortKey: -1653956804844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
