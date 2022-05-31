@@ -1,0 +1,21 @@
+_id: req_0b06b99772cc42b6a30f2612f87d11ae
+type: Request
+parentId: fld_189d89bf97cf4634864fdad9190e149e
+modified: 1654003357918
+created: 1654000410903
+url: "{{schema}}{{base_url}}/api/allocators/1"
+name: Get Manager By ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653956804894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

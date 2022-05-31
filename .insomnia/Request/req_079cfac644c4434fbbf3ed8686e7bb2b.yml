@@ -1,0 +1,33 @@
+_id: req_079cfac644c4434fbbf3ed8686e7bb2b
+type: Request
+parentId: fld_eab712c6bcc24834bb522ea454b2323c
+modified: 1654003958355
+created: 1653960793435
+url: "{{schema}}{{base_url}}/api/schedules"
+name: Create Schedule
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"start_of_appointment": "2022-05-26T23:03:24.944Z",
+    	"end_of_appointment": "2022-05-26T23:03:24.944Z",
+    	"manager_id": 1,
+    	"allocator_id": 1,
+    	"description": "details of the meeting"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3fea96332394f02971189d6c9aed8f6
+authentication: {}
+metaSortKey: -1653957801966.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

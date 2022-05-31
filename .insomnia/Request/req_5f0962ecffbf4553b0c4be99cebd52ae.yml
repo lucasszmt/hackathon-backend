@@ -1,0 +1,29 @@
+_id: req_5f0962ecffbf4553b0c4be99cebd52ae
+type: Request
+parentId: fld_eab712c6bcc24834bb522ea454b2323c
+modified: 1654004151401
+created: 1654002026166
+url: "{{schema}}{{base_url}}/api/schedules/1/status"
+name: Update Schedule Status
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status":"pending"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3fea96332394f02971189d6c9aed8f6
+authentication: {}
+metaSortKey: -1653957801941.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

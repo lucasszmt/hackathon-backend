@@ -1,9 +1,9 @@
 _id: req_f57550e738dd475b9c23b593571d0ef9
 type: Request
 parentId: fld_189d89bf97cf4634864fdad9190e149e
-modified: 1653956870052
+modified: 1654003961830
 created: 1653956804844
-url: "{{schema}}{{base_url}}/api/manager"
+url: "{{schema}}{{base_url}}/api/managers"
 name: Create Manager
 description: ""
 method: POST
@@ -12,12 +12,13 @@ body:
   text: |-
     {
     	"FirstName": "Lucas",
-    	"LastName":  "Szeremeta 2",
-    	"Password":  "123456",
-    	"Email":     "lucas.szeremeta@becomeholonic.com",
-    	"Company":   "Holonic",
-    	"JobTitle":  "Golanger",
-    	"Category":  "Manager"
+    	"LastName": "Szeremeta 3",
+    	"Password": "123456",
+    	"Email": "lucas.szeremeta@becomeholonic.com",
+    	"Phone": "+12125458000",
+    	"Company": "Holonic",
+    	"JobTitle": "Golanger",
+    	"Category": "Manager"
     }
 parameters: []
 headers:

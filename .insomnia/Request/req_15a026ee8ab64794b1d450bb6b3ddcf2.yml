@@ -1,0 +1,21 @@
+_id: req_15a026ee8ab64794b1d450bb6b3ddcf2
+type: Request
+parentId: fld_189d89bf97cf4634864fdad9190e149e
+modified: 1654003345124
+created: 1653999707185
+url: "{{schema}}{{base_url}}/api/managers/1/schedules"
+name: Get Manager Schedules
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653956804869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

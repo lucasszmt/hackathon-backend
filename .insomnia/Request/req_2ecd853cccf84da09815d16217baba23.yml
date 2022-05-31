@@ -1,0 +1,21 @@
+_id: req_2ecd853cccf84da09815d16217baba23
+type: Request
+parentId: fld_eab712c6bcc24834bb522ea454b2323c
+modified: 1654003960604
+created: 1654002665620
+url: "{{schema}}{{base_url}}/api/schedules/1"
+name: Get Schedule By ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653960793485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
