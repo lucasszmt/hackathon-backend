@@ -1,7 +1,7 @@
 _id: req_501d1f1180d04e1697c950c36e1a0bd1
 type: Request
 parentId: fld_08915dfaa87940f0baf72cf3f659a297
-modified: 1654088377363
+modified: 1654125498651
 created: 1653999968323
 url: "{{schema}}{{base_url}}/api/allocators"
 name: Create Allocator
@@ -11,10 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"FirstName": "Matheus",
-    	"LastName":  "Lucas",
-    	"Password":  "123456789",
-    	"Email":     "lucas.szeremeta@becomeholonic.com"
+    	"FirstName": "Lucas",
+    	"LastName": "Szeremeta",
+    	"Password": "123456789",
+    	"Company": "Holonic",
+    	"JobTitle": "Backend hot fixer",
+    	"Category": "Developer",
+    	"Address": "Viconde do Rio Branco, 447, Cascavel, PR, Brazil",
+    	"Email": "lucas.szeremeta@becomeholonic.com"
     }
 parameters: []
 headers:

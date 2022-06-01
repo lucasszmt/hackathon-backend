@@ -1,16 +1,16 @@
-_id: env_21650b6420904a52abb8f47ede7185c1
+_id: env_9ff998e583824226ab5b2a5329cb4a31
 type: Environment
 parentId: env_0a0577932ffc6ea8cf010206cd529a41a450cb39
-modified: 1654125392935
-created: 1653956663788
-name: Development
+modified: 1654125413815
+created: 1654125398654
+name: Production
 data:
   schema: http://
-  base_url: 0.0.0.0:8080
+  base_url: backend.vector.pods.team
 dataPropertyOrder:
   "&":
     - schema
     - base_url
 color: null
 isPrivate: false
-metaSortKey: 1653956663788
+metaSortKey: 1653956663838

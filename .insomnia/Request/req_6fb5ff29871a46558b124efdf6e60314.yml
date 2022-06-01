@@ -1,7 +1,7 @@
 _id: req_6fb5ff29871a46558b124efdf6e60314
 type: Request
 parentId: fld_08915dfaa87940f0baf72cf3f659a297
-modified: 1654023025757
+modified: 1654103794992
 created: 1654022968489
 url: "{{schema}}{{base_url}}/api/allocators/search"
 name: Search Allocator
@@ -13,6 +13,8 @@ parameters:
     name: query
     value: São Paulo
     description: ""
+    type: text
+    multiline: false
 headers: []
 authentication: {}
 metaSortKey: -1654022968490

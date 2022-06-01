@@ -1,7 +1,7 @@
 _id: req_079cfac644c4434fbbf3ed8686e7bb2b
 type: Request
 parentId: fld_eab712c6bcc24834bb522ea454b2323c
-modified: 1654041493781
+modified: 1654125420678
 created: 1653960793435
 url: "{{schema}}{{base_url}}/api/schedules"
 name: Create Schedule
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"start_of_appointment": "2022-05-26T23:03:24.944Z",
-    	"end_of_appointment": "2022-05-26T23:03:24.944Z",
+    	"start_of_appointment": "2022-05-26T23:03:24.94Z",
+    	"end_of_appointment": "2022-05-26T23:03:24.94Z",
     	"manager_id": 1,
     	"allocator_id": 1,
     	"description": "details of the meeting"
