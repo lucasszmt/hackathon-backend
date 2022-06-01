@@ -1,9 +1,9 @@
 _id: req_5f0962ecffbf4553b0c4be99cebd52ae
 type: Request
 parentId: fld_eab712c6bcc24834bb522ea454b2323c
-modified: 1654004151401
+modified: 1654041399191
 created: 1654002026166
-url: "{{schema}}{{base_url}}/api/schedules/1/status"
+url: "{{schema}}{{base_url}}/api/schedules/8/status"
 name: Update Schedule Status
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"status":"pending"
+    	"status":"completed"
     }
 parameters: []
 headers:
