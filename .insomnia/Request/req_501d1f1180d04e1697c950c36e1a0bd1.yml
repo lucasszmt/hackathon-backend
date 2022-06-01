@@ -1,9 +1,9 @@
 _id: req_501d1f1180d04e1697c950c36e1a0bd1
 type: Request
 parentId: fld_08915dfaa87940f0baf72cf3f659a297
-modified: 1654087002128
+modified: 1654088377363
 created: 1653999968323
-url: "{{schema}}{{base_url}}/api/allocators/1"
+url: "{{schema}}{{base_url}}/api/allocators"
 name: Create Allocator
 description: ""
 method: POST
@@ -13,7 +13,7 @@ body:
     {
     	"FirstName": "Matheus",
     	"LastName":  "Lucas",
-    	"Password":  "123456",
+    	"Password":  "123456789",
     	"Email":     "lucas.szeremeta@becomeholonic.com"
     }
 parameters: []
@@ -22,7 +22,7 @@ headers:
     value: application/json
     id: pair_11554c360211418f8d2c8e9b33d8600f
 authentication: {}
-metaSortKey: -1653999968323
+metaSortKey: -1654022968540
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
